@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React from "react";
 export function Newsletter() {
   return (
     <section className="py-16">

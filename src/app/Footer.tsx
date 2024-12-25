@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React from "react";
 export const Footer = () => {
   return (
     <footer className="bg-banner pt-12 pb-6">

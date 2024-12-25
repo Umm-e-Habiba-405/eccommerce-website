@@ -1,9 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Hero from "./Hero";
-
-
 import Shops from "./Shops";
 import Unique from "./Unique";
-
 import ContinueTrendingProducts from "./ContinueTrendingProducts";
 import Discount from "./Discount";
 import TopCategories from "./TopCategories";
@@ -15,16 +13,13 @@ import TrendingProducts from "./TrendingProducts";
 export default function Home() {
   return (
     <div>
-      
-    <Hero/>
+      <Hero/>
     <FeaturesGrid/>
     <ProductGrid/>
-    
-     <Shops/>
+    <Shops/>
      <Unique/>
      <TrendingProducts/>
-   
-     <ContinueTrendingProducts/>
+   <ContinueTrendingProducts/>
      <Discount/>
      <TopCategories/>
      <Newsletter/>

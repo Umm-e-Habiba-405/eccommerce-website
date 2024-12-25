@@ -1,4 +1,5 @@
-import Image from "next/image";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React from "react";
 
 const Hero = () => {
   return (
