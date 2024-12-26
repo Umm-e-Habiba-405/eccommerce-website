@@ -1,4 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+/* eslint-disable react/no-unescaped-entities */
 import Hero from "./Hero";
 import Shops from "./Shops";
 import Unique from "./Unique";
