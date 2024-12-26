@@ -1,5 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
+import Image from 'next/image';
+
 const Discount = () => {
   return (
     <div className="py-10">
@@ -40,9 +42,11 @@ const Discount = () => {
 
         {/* Image Section */}
         <div className="w-full sm:w-[500px] md:w-[600px] lg:w-[700px]">
-          <img
+          <Image
             src="/tortuga-01-b 1.png"
             alt="Discounted Product"
+            width={700}
+            height={460}
             className="w-full h-[460px] object-cover"
           />
         </div>

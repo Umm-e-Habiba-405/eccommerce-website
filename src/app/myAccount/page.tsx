@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -7,7 +8,7 @@ const page = () => {
       <div className='bg-bag h-[286px] w-[1920px]'>
         <h1 className='text-[40px] text-blue-950 font-bold pt-[125px] ml-52'>My Account</h1>
      </div>
-     <div><img src="/page sort by.png" alt="" className='ml-[310px] mt-[140px]' /></div>
+    
      <div className=' w-[544px] h-[474px] text-center ml-[560px] mt-24 '>
         <h1 className='text-[20px] font-bold mt-14'>Login</h1>
         <p className='text-para2  '> Please login using account detail bellow.</p>
@@ -22,7 +23,7 @@ const page = () => {
         <p className='text-para2 mt-4'>Don't have an Account?Create account</p>
      </div>
      <div className='flex justify-center mb-16'>
-        <img src="/image 1174.png" alt="" />
+        <Image src="/image 1174.png" alt=""  width={1176} height={121}/>
      </div>
     </div>
   )

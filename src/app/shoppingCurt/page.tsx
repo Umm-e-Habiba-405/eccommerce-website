@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -7,7 +8,7 @@ const page = () => {
       <div className='bg-bag h-[286px] w-[1920px]'>
         <h1 className='text-[40px] text-blue-950 font-bold pt-[125px] ml-52'>Shopping Curt</h1>
      </div>
-     <div><img src="/page sort by.png" alt="" className='ml-[310px] mt-[140px]' /></div>
+    
     <div className='flex'>
         <div>
         <div>
@@ -21,7 +22,7 @@ const page = () => {
      </div>
      <div className='flex'>
         <div className='flex gap-10 ml-72 mt-20 border-b-2'>
-            <img src="/Rectangle 34.png" alt=""className='w-[83px] h-[87px] ' />
+            <Image src="/Rectangle 34.png" alt="" width={83} height={87}className=' ' />
             <p className='font-semibold text-[17px]'>Ut diam consequat
                 <p className='text-para2'>Color:Brown<br/>Size:XL</p>
             </p>
@@ -34,7 +35,7 @@ const page = () => {
      {/* card 2 */}
      <div className='flex'>
         <div className='flex gap-10 ml-72 mt-20 border-b-2'>
-            <img src="/Rectangle 35.png" alt=""className='w-[83px] h-[87px]' />
+            <Image src="/Rectangle 35.png" alt="" width={83} height={87} />
             <p className='font-semibold text-[17px]'>Ut diam consequat
                 <p className='text-para2'>Color:Brown<br/>Size:XL</p>
             </p>
@@ -47,7 +48,7 @@ const page = () => {
      {/* card 3 */}
      <div className='flex'>
         <div className='flex gap-10 ml-72 mt-20 border-b-2'>
-            <img src="/Rectangle 36.png" alt=""className='w-[83px] h-[87px] ' />
+            <Image src="/Rectangle 36.png" alt="" width={83} height={87} />
             <p className='font-semibold text-[17px]'>Ut diam consequat
                 <p className='text-para2'>Color:Brown<br/>Size:XL</p>
             </p>
@@ -60,7 +61,7 @@ const page = () => {
      {/* card4 */}
      <div className='flex'>
         <div className='flex gap-10 ml-72 mt-20 border-b-2'>
-            <img src="/Rectangle 37.png" alt=""className='w-[83px] h-[87px]' />
+            <Image src="/Rectangle 37.png" alt="" width={83} height={87} />
             <p className='font-semibold text-[17px]'>Ut diam consequat
                 <p className='text-para2'>Color:Brown<br/>Size:XL</p>
             </p>
@@ -73,7 +74,7 @@ const page = () => {
      {/* card5 */}
      <div className='flex'>
         <div className='flex gap-10 ml-72 mt-20 border-b-2'>
-            <img src="/Rectangle 38.png" alt=""className='w-[83px] h-[87px]' />
+            <Image src="/Rectangle 38.png" alt="" width={83} height={87} />
             <p className='font-semibold text-[17px]'>Ut diam consequat
                 <p className='text-para2'>Color:Brown<br/>Size:XL</p>
             </p>

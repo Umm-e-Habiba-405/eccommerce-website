@@ -1,10 +1,10 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
+import Image from 'next/image';
 
 const LatestBlog = () => {
   return (
     <div>
-      <img src="/image1174.png" alt="" className="mx-auto mb-8" />
       <div className="py-12">
         <h2 className="text-center text-[32px] sm:text-[40px] font-bold text-indigo-900 mb-8">
           Latest Blog
@@ -12,10 +12,12 @@ const LatestBlog = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-8">
           {/* Blog 1 */}
           <div className="bg-white shadow-md rounded-lg overflow-hidden w-full sm:w-[320px]">
-            <img
+            <Image
               src="/Frame 3 (2).png"
               alt="Top essential Trends in 2021"
               className="w-full h-48 object-cover"
+              width={320}
+              height={192}
             />
             <div className="p-6">
               <div className="flex items-center text-sm text-gray-500 mb-2">
@@ -39,10 +41,12 @@ const LatestBlog = () => {
           </div>
           {/* Blog 2 */}
           <div className="bg-white shadow-md rounded-lg overflow-hidden w-full sm:w-[320px]">
-            <img
+            <Image
               src="/Frame 4.png"
               alt="Top essential trends in 2021"
               className="w-full h-48 object-cover"
+              width={320}
+              height={192}
             />
             <div className="p-6">
               <div className="flex items-center text-sm text-gray-500 mb-2">
@@ -66,10 +70,12 @@ const LatestBlog = () => {
           </div>
           {/* Blog 3 */}
           <div className="bg-white shadow-md rounded-lg overflow-hidden w-full sm:w-[320px]">
-            <img
+            <Image
               src="/2dcYhvbHV-M.png"
               alt="Top essential Trends in 2021"
               className="w-full h-48 object-cover"
+              width={320}
+              height={192}
             />
             <div className="p-6">
               <div className="flex items-center text-sm text-gray-500 mb-2">

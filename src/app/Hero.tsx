@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -10,9 +11,12 @@ const Hero = () => {
           
           {/* Image Section */}
           <div className="flex-1">
-            <img
-              src="image 32.png"
+            <Image
+              src="/image 32.png" // Updated to Next.js Image
               alt="Hero Image"
+              layout="responsive"
+              width={800} // Replace with actual dimensions
+              height={600} // Replace with actual dimensions
               className="-mt-64 w-full lg:w-auto"
             />
           </div>
@@ -36,18 +40,22 @@ const Hero = () => {
           {/* Right Section with Featured Chair */}
           <div className="relative flex-1">
             <div className="absolute top-8 lg:top-16 right-0 text-white rounded-full px-4 py-2">
-              <img
-                src="/Vector 14.png"
+              <Image
+                src="/Vector 14.png" // Updated to Next.js Image
                 alt="Sale Vector"
-                className="w-[60px] lg:w-[80px] h-[60px] lg:h-[80px] text-center"
+                layout="fixed"
+                width={80} // Adjust dimensions as needed
+                height={80}
+                className="text-center"
               />
               <p className="text-sm lg:text-base -mt-11 px-3">50% off</p>
             </div>
-            <img
-              src="/Shell-Shaped-Armchair-Pink-Velvet-Fabric-One-Seater-Sofa-for-Living-Room 1.png"
+            <Image
+              src="/Shell-Shaped-Armchair-Pink-Velvet-Fabric-One-Seater-Sofa-for-Living-Room 1.png" // Updated to Next.js Image
               alt="Featured Chair"
-              width={629}
-              height={629}
+              layout="responsive"
+              width={629} // Replace with actual dimensions
+              height={629} // Replace with actual dimensions
               className="mt-8 lg:mt-24 w-full lg:w-auto"
             />
           </div>

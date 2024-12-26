@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -7,10 +8,11 @@ const page = () => {
       <div className='bg-bag h-[286px] w-[1920px]'>
         <h1 className='text-[40px] text-blue-950 font-bold pt-[125px] ml-52'>Shop List</h1>
      </div>
-     <div><img src="/page sort by.png" alt="" className='ml-[310px] mt-[140px]' /></div>
-     <div className='ml-[375px] mt-14 mb-20'>
+      <Image src="/page sort by.png" alt=""  width={1171} 
+                 height={44} className='ml-[310px] mt-[140px]' />
+                   <div className='ml-[375px] mt-14 mb-20'>
         <div className='flex gap-10'>
-            <div><img src="/Rectangle 32 (1).png" alt="" /></div>
+            <div><Image src="/Rectangle 32 (1).png" alt="" width={313} height={217} /></div>
             <div>
                  <div className='flex'>
                     <div><h1 className='text-[23px] font-bold'>Accumsan tincidunt</h1></div>
@@ -25,9 +27,9 @@ const page = () => {
                     </div>
                 </div>
                 <ul className='flex gap-6 mt-7 ml-4 cursor-pointer'>
-                    <li> <img src="/Group (2).png" alt="" /></li>
-                    <li> <img src="/Vector (2).png" alt="" /></li>
-                    <li> <img src="/Vector (3).png" alt="" /></li>
+                    <li> <Image src="/Group (2).png" alt="" width={20} height={20}/></li>
+                    <li> <Image src="/Vector (2).png" alt=""width={20} height={20}/></li>
+                    <li> <Image src="/Vector (3).png" alt=""width={20} height={20}/></li>
                 </ul>
             </div>
            
@@ -36,7 +38,7 @@ const page = () => {
         
         <div className='mt-10'>
         <div className='flex gap-10'>
-            <div><img src="/Rectangle 32.png" alt="" /></div>
+            <div><Image src="/Rectangle 32.png" alt="" width={313} height={217} /></div>
             <div>
                 <div className='flex'>
                     <div><h1 className='text-[23px] font-bold'>In nulla</h1></div>
@@ -51,9 +53,9 @@ const page = () => {
                     </div>
                 </div>
                 <ul className='flex gap-6 mt-7 ml-4 cursor-pointer'>
-                    <li> <img src="/Group (2).png" alt="" /></li>
-                    <li> <img src="/Vector (2).png" alt="" /></li>
-                    <li> <img src="/Vector (3).png" alt="" /></li>
+                <li> <Image src="/Group (2).png" alt="" width={20} height={20}/></li>
+                    <li> <Image src="/Vector (2).png" alt=""width={20} height={20}/></li>
+                    <li> <Image src="/Vector (3).png" alt=""width={20} height={20}/></li>
                 </ul>
             </div>
            
@@ -62,7 +64,7 @@ const page = () => {
         </div>
         <div className='mt-10'>
         <div className='flex gap-10'>
-            <div><img src="/Rectangle 32 (3).png" alt="" /></div>
+            <div><Image src="/Rectangle 32 (3).png" alt="" width={313} height={217} /></div>
             <div>
                 <div className='flex'>
                     <div><h1 className='text-[23px] font-bold'>Vell sem</h1></div>
@@ -77,9 +79,9 @@ const page = () => {
                     </div>
                 </div>
                 <ul className='flex gap-6 mt-7 ml-4 cursor-pointer'>
-                    <li> <img src="/Group (2).png" alt="" /></li>
-                    <li> <img src="/Vector (2).png" alt="" /></li>
-                    <li> <img src="/Vector (3).png" alt="" /></li>
+                <li> <Image src="/Group (2).png" alt="" width={20} height={20}/></li>
+                    <li> <Image src="/Vector (2).png" alt=""width={20} height={20}/></li>
+                    <li> <Image src="/Vector (3).png" alt=""width={20} height={20}/></li>
                 </ul>
             </div>
            
@@ -88,7 +90,7 @@ const page = () => {
         </div>
         <div className='mt-10'>
         <div className='flex gap-10'>
-            <div><img src="/Rectangle 32 (4).png" alt="" /></div>
+            <div><Image src="/Rectangle 32 (4).png" alt="" width={313} height={217} /></div>
             <div>
                 <div className='flex'>
                     <div><h1 className='text-[23px] font-bold'>Porttitore cum</h1></div>
@@ -103,9 +105,9 @@ const page = () => {
                     </div>
                 </div>
                 <ul className='flex gap-6 mt-7 ml-4 cursor-pointer'>
-                    <li> <img src="/Group (2).png" alt="" /></li>
-                    <li> <img src="/Vector (2).png" alt="" /></li>
-                    <li> <img src="/Vector (3).png" alt="" /></li>
+                <li> <Image src="/Group (2).png" alt="" width={20} height={20}/></li>
+                    <li> <Image src="/Vector (2).png" alt=""width={20} height={20}/></li>
+                    <li> <Image src="/Vector (3).png" alt=""width={20} height={20}/></li>
                 </ul>
             </div>
            
@@ -114,7 +116,7 @@ const page = () => {
         </div>
         <div className='mt-10'>
         <div className='flex gap-10'>
-            <div><img src="/Rectangle 32 (5).png" alt="" /></div>
+            <div><Image src="/Rectangle 32 (5).png" alt="" width={313} height={217} /></div>
             <div>
                 <div className='flex'>
                     <div><h1 className='text-[23px] font-bold'>Nunc in</h1></div>
@@ -129,9 +131,9 @@ const page = () => {
                     </div>
                 </div>
                 <ul className='flex gap-6 mt-7 ml-4 cursor-pointer'>
-                    <li> <img src="/Group (2).png" alt="" /></li>
-                    <li> <img src="/Vector (2).png" alt="" /></li>
-                    <li> <img src="/Vector (3).png" alt="" /></li>
+                <li> <Image src="/Group (2).png" alt="" width={20} height={20}/></li>
+                    <li> <Image src="/Vector (2).png" alt=""width={20} height={20}/></li>
+                    <li> <Image src="/Vector (3).png" alt=""width={20} height={20}/></li>
                 </ul>
             </div>
            
@@ -140,7 +142,7 @@ const page = () => {
         </div>
         <div className='mt-10'>
         <div className='flex gap-10'>
-            <div><img src="/Rectangle 32 (2).png" alt="" /></div>
+            <div><Image src="/Rectangle 32 (2).png" alt=""width={313} height={217} /></div>
             <div>
                 <div className='flex'>
                     <div><h1 className='text-[23px] font-bold'>Vtae facilisis</h1></div>
@@ -155,9 +157,9 @@ const page = () => {
                     </div>
                 </div>
                 <ul className='flex gap-6 mt-7 ml-4 cursor-pointer'>
-                    <li> <img src="/Group (2).png" alt="" /></li>
-                    <li> <img src="/Vector (2).png" alt="" /></li>
-                    <li> <img src="/Vector (3).png" alt="" /></li>
+                <li> <Image src="/Group (2).png" alt="" width={20} height={20}/></li>
+                    <li> <Image src="/Vector (2).png" alt=""width={20} height={20}/></li>
+                    <li> <Image src="/Vector (3).png" alt=""width={20} height={20}/></li>
                 </ul>
             </div>
            
@@ -166,7 +168,7 @@ const page = () => {
         </div>
         <div className='mt-10'>
         <div className='flex gap-10'>
-            <div><img src="/Rectangle 32 (6).png" alt="" /></div>
+            <div><Image src="/Rectangle 32 (6).png" alt="" width={313} height={217} /></div>
             <div>
                 <div className='flex'>
                     <div><h1 className='text-[23px] font-bold'>Curabitar lectus</h1></div>
@@ -181,9 +183,9 @@ const page = () => {
                     </div>
                 </div>
                 <ul className='flex gap-6 mt-7 ml-4 cursor-pointer'>
-                    <li> <img src="/Group (2).png" alt="" /></li>
-                    <li> <img src="/Vector (2).png" alt="" /></li>
-                    <li> <img src="/Vector (3).png" alt="" /></li>
+                <li> <Image src="/Group (2).png" alt="" width={20} height={20}/></li>
+                    <li> <Image src="/Vector (2).png" alt=""width={20} height={20}/></li>
+                    <li> <Image src="/Vector (3).png" alt=""width={20} height={20}/></li>
                 </ul>
             </div>
            
@@ -192,7 +194,8 @@ const page = () => {
         </div>
      </div>
      <div className='flex justify-center mb-16'>
-        <img src="/image 1174.png" alt="" />
+        <Image src="/image 1174.png" alt=""  width={904} 
+            height={93}/>
      </div>
     </div>
   )

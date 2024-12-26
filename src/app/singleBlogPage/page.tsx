@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -9,17 +10,15 @@ const page = () => {
           Single Blog Page
         </h1>
       </div>
-      <div>
-        <img src="/page sort by.png" alt="" className="ml-[310px] mt-[140px]" />
-      </div>
+     
       <div className="ml-20 flex gap-5 mb-10">
         <div>
-          <img
+          <Image
             src="/bruce-mars-FWVMhUa_wbY-unsplash 2.png"
-            alt=""
+            alt="" width={870} height={453}
             className="mt-10 w-[870px]"
           />
-          <img src="/Group 164.png" alt="" className="mt-10" />
+          <Image src="/Group 164.png" alt=""width={360} height={23} className="mt-10" />
           <h1 className="text-blue-950 text-[30px] font-bold mt-10">
             Mauris at orci non vulputate diam tincidunt nec.
           </h1>
@@ -49,8 +48,8 @@ const page = () => {
              toamk risusu” 
                   </p>
                   <div className="flex gap-3 mt-10">
-              <img src="/Rectangle 70.png" alt="" />
-              <img src="/Group 140.png" alt="" />
+              <Image src="/Rectangle 70.png" alt=""width={400} height={453} />
+              <Image src="/Group 140.png" alt=""width={400} height={453} />
               </div>
               <p className="text-para2 text-[16px] mt-14">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit
@@ -66,7 +65,7 @@ const page = () => {
           </p>
           <div className="flex gap-10 mt-10">
             <div>
-            <img src="/Rectangle 63.png" alt=""  className="h-[256px] w-[180px]" />
+            <Image src="/Rectangle 63.png" alt=""width={209} height={253}  className="h-[256px] w-[180px]" />
              <h1 className="ml-6 mt-3  font-semibold text-[19px]">Quam sed</h1>
              <div className="flex justify-between">
               <p className="text-blue-950">$32.00<del className="text-pink-600 ml-1">$56.00</del></p>
@@ -75,7 +74,7 @@ const page = () => {
           
             </div>
             <div>
-            <img src="/Rectangle 63 (1).png" alt="" className="h-[256px] w-[180px]" />
+            <Image src="/Rectangle 63 (1).png" alt=""width={209} height={253} className="h-[256px] w-[180px]" />
             <h1 className="ml-6 mt-3  font-semibold text-[19px]">Tristique sed</h1>
              <div className="flex justify-between">
               <p className="text-blue-950">$32.00<del className="text-pink-600 ml-1">$56.00</del></p>
@@ -83,7 +82,7 @@ const page = () => {
              </div>
             </div>
             <div>
-            <img src="/Rectangle 63 (2).png" alt="" className="h-[256px] w-[180px]" />
+            <Image src="/Rectangle 63 (2).png" alt="" width={209} height={253}className="h-[256px] w-[180px]" />
             <h1 className="ml-6 mt-3 font-semibold text-[19px]">A etiam</h1>
              <div className="flex justify-between">
               <p className="text-blue-950">$32.00<del className="text-pink-600 ml-1">$56.00</del></p>
@@ -91,7 +90,7 @@ const page = () => {
              </div>
             </div>
             <div>
-            <img src="/Rectangle 63 (3).png" alt="" className="h-[256px] w-[180px]" />
+            <Image src="/Rectangle 63 (3).png" alt=""width={209} height={253} className="h-[256px] w-[180px]" />
             <h1 className="ml-6 mt-3  font-semibold text-[19px]">Mi nisi</h1>
              <div className="flex justify-between">
               <p className="text-blue-950">$32.00<del className="text-pink-600 ml-1">$56.00</del></p>
@@ -125,21 +124,21 @@ const page = () => {
             sit amet, consectetur adipiscing elit. Velit dapibus est, nunc,
           </p>
          <ul className="flex justify-center gap-5 mt-10">
-          <li><img src="/Group 202.png" alt=""  className="w-8 h-8"/></li>
-          <li> <img src="/Group 203.png" alt="" className="w-8 h-8" /></li>
-          <li> <img src="/Group 204.png" alt="" className="w-8 h-8" /></li>
+          <li> <Image src="/Group 202.png" alt="" width={8} height={8} className="w-8 h-8"/></li>
+          <li> <Image src="/Group 203.png" alt=""width={8} height={8} className="w-8 h-8" /></li>
+          <li> <Image src="/Group 204.png" alt=""width={8} height={8} className="w-8 h-8" /></li>
          </ul>
          <div className="flex justify-between">
-          <img src="/Group 86.png" alt="" />
-          <img src="/Group 87.png" alt="" />
+          <Image src="/Group 86.png" alt="" width={118} height={19.6}/>
+          <Image src="/Group 87.png" alt="" width={118} height={19.6} />
          </div>
          <div className="flex gap-2 bg-white rounded-lg border-none shadow-2xl p-6 w-[667px] mt-10 ">
-          <img src="/Rectangle 59.png" alt="" />
+          <Image src="/Rectangle 59.png" alt=""  width={103} height={106}/>
           <p className="text-[18px] text-blue-950 font-semibold "> Sapien ac <br/>
           <span className="text-para text-[16px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in vitae rutrum vulputate consectetur.</span></p>
          </div>
          <div className="flex gap-2 bg-white rounded-lg border-none shadow-2xl p-6 w-[667px] mt-5 ">
-          <img src="/Rectangle 59 (1).png" alt="" />
+          <Image src="/Rectangle 59 (1).png" alt="" width={103} height={106} />
           <p className="text-[18px] font-semibold text-blue-950"> Augue conva <br/>
           <span className="text-para text-[16px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in vitae rutrum vulputate consectetur.</span></p>
          </div>
@@ -190,7 +189,7 @@ const page = () => {
               </p>
             </div>
             <div className="flex gap-4 mt-7">
-              <img src="/Rectangle 126 (1).png" alt="" />
+              <Image width={70} height={51} src="/Rectangle 126 (1).png" alt="" />
               <p>
                 It is a long established fact
                 <br />
@@ -198,7 +197,7 @@ const page = () => {
               </p>
             </div>
             <div className="flex gap-4 mt-7">
-              <img src="/Rectangle 126 (2).png" alt="" />
+              <Image width={70} height={51} src="/Rectangle 126 (2).png" alt="" />
               <p>
                 It is a long established fact
                 <br />
@@ -206,7 +205,7 @@ const page = () => {
               </p>
             </div>
             <div className="flex gap-4 mt-7">
-              <img src="/Rectangle 126 (3).png" alt="" />
+              <Image width={70} height={51} src="/Rectangle 126 (3).png" alt="" />
               <p>
                 It is a long established fact
                 <br />
@@ -219,14 +218,14 @@ const page = () => {
           </h1>
           <div>
             <div className="flex gap-4 mt-7">
-              <img src="/Rectangle 126 (4).png" alt="" />
+              <Image width={70} height={51} src="/Rectangle 126 (4).png" alt="" />
               <p>
                 Elit ornare in enim mauris.
                 <br /> <span className="text-para2">Aug 09 2020</span>
               </p>
             </div>
             <div className="flex gap-4 mt-7">
-              <img src="/Rectangle 126 (5).png" alt="" />
+              <Image width={70} height={51} src="/Rectangle 126 (5).png" alt="" />
               <p>
                 Viverra pulvinar et enim.
                 <br />
@@ -234,7 +233,7 @@ const page = () => {
               </p>
             </div>
             <div className="flex gap-4 mt-7">
-              <img src="/Rectangle 126 (6).png" alt="" />
+              <Image width={70} height={51} src="/Rectangle 126 (6).png" alt="" />
               <p>
                 Mattis varius donec fdsfd <br />
                 <span className="text-para2">Aug 09 2020</span>
@@ -246,28 +245,28 @@ const page = () => {
           </h1>
           <div className="grid grid-cols-2">
             <div className="mt-5">
-              <img src="/Mask Group.png" alt="" className="rounded-sm" />
+              <Image src="/Mask Group.png" alt=""width={126} height={80} className="rounded-sm" />
               <p className="text-blue-950 font-semibold text-[17px] mt-2 px-2">
                 Duis lectus est.
                 <br /> <span className="text-para2">$12.00 - $15.00</span>
               </p>
             </div>
             <div className="mt-5">
-              <img src="/Mask Group (1).png" alt="" className="rounded-sm" />
+              <Image src="/Mask Group (1).png" alt="" width={126} height={80}className="rounded-sm" />
               <p className="text-blue-950 font-semibold text-[17px] mt-2 px-2">
                 Duis lectus est.
                 <br /> <span className="text-para2">$12.00 - $15.00</span>
               </p>
             </div>
             <div className="mt-5">
-              <img src="/Mask Group (2).png" alt="" className="rounded-sm" />
+              <Image src="/Mask Group (2).png" alt=""width={126} height={80} className="rounded-sm" />
               <p className="text-blue-950 font-semibold text-[17px] mt-2 px-2">
                 Duis lectus est.
                 <br /> <span className="text-para2">$12.00 - $15.00</span>
               </p>
             </div>
             <div className="mt-5">
-              <img src="/Mask Group (3).png" alt="" className="rounded-sm" />
+              <Image src="/Mask Group (3).png" alt=""width={126} height={80} className="rounded-sm" />
               <p className="text-blue-950 font-semibold text-[17px] mt-2 px-2">
                 Duis lectus est.
                 <br /> <span className="text-para2">$12.00 - $15.00</span>
@@ -280,15 +279,15 @@ const page = () => {
           <ul className="flex gap-3 mt-5 ml-7">
             <li>
               {" "}
-              <img src="/Group 202.png" alt="" className="w-[25px]" />
+              <Image src="/Group 202.png" alt="" width={8} height={8}className="w-[25px]" />
             </li>
             <li>
               {" "}
-              <img src="/Group 203.png" alt="" className="w-[25px]" />
+              <Image src="/Group 203.png" alt=""width={8} height={8} className="w-[25px]" />
             </li>
             <li>
               {" "}
-              <img src="/Group 204.png" alt="" className="w-[25px]" />
+              <Image src="/Group 204.png" alt=""width={8} height={8} className="w-[25px]" />
             </li>
           </ul>
           <h1 className="text-blue-950 text-[25px] font-semibold mt-8 ">Tags</h1>
@@ -301,9 +300,7 @@ const page = () => {
           </ul>
         </div>
       </div>
-      <div className='flex justify-center mb-16'>
-        <img src="/image 1174.png" alt="" />
-     </div>
+      
     </div>
   );
 };

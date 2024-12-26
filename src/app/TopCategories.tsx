@@ -1,6 +1,7 @@
 // pages/index.tsx
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
+import Image from 'next/image';
 
 const TopCategories = () => {
   return (
@@ -14,10 +15,12 @@ const TopCategories = () => {
       <div className="flex flex-wrap justify-center gap-8 mt-10">
         {/* Category Item */}
         <div className="bg-white rounded-lg shadow-md p-6 text-center w-full sm:w-[250px] lg:w-[280px] transform transition hover:scale-110 cursor-pointer">
-          <img
+          <Image
             src="/image 1168.png"
             alt="Mini LCW Chair"
-            className="mt-5 h-[150px] w-[150px] bg-banner rounded-full mx-auto"
+            width={150}
+            height={150}
+            className="mt-5 bg-banner rounded-full mx-auto"
           />
           <p className="text-color font-bold mt-9">Mini LCW Chair</p>
           <p className="text-indigo-600 font-bold mt-2">$56.00</p>
@@ -25,10 +28,12 @@ const TopCategories = () => {
 
         {/* Category Item */}
         <div className="bg-white rounded-lg shadow-md p-6 text-center w-full sm:w-[250px] lg:w-[280px] transform transition hover:scale-110 cursor-pointer">
-          <img
+          <Image
             src="/image 1169.png"
             alt="Mini LCW Chair"
-            className="mt-5 h-[150px] w-[150px] bg-banner rounded-full mx-auto"
+            width={150}
+            height={150}
+            className="mt-5 bg-banner rounded-full mx-auto"
           />
           <p className="text-color font-bold mt-9">Mini LCW Chair</p>
           <p className="text-indigo-600 font-bold mt-2">$56.00</p>
@@ -36,10 +41,12 @@ const TopCategories = () => {
 
         {/* Category Item */}
         <div className="bg-white rounded-lg shadow-md p-6 text-center w-full sm:w-[250px] lg:w-[280px] transform transition hover:scale-110 cursor-pointer">
-          <img
+          <Image
             src="/image 1171.png"
             alt="Mini LCW Chair"
-            className="mt-5 h-[150px] w-[150px] bg-banner rounded-full mx-auto"
+            width={150}
+            height={150}
+            className="mt-5 bg-banner rounded-full mx-auto"
           />
           <p className="text-color font-bold mt-9">Mini LCW Chair</p>
           <p className="text-indigo-600 font-bold mt-2">$56.00</p>
@@ -47,10 +54,12 @@ const TopCategories = () => {
 
         {/* Category Item */}
         <div className="bg-white rounded-lg shadow-md p-6 text-center w-full sm:w-[250px] lg:w-[280px] transform transition hover:scale-110 cursor-pointer">
-          <img
+          <Image
             src="/image 1166.png"
             alt="Mini LCW Chair"
-            className="mt-5 h-[150px] w-[150px] bg-banner rounded-full mx-auto"
+            width={150}
+            height={150}
+            className="mt-5 bg-banner rounded-full mx-auto"
           />
           <p className="text-color font-bold mt-9">Mini LCW Chair</p>
           <p className="text-indigo-600 font-bold mt-2">$56.00</p>

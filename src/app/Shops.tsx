@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
+import Image from "next/image";
 
 const Shops = () => {
   return (
@@ -10,9 +11,11 @@ const Shops = () => {
       <div className="flex flex-wrap justify-center gap-6 mt-6">
         {/* Card 1 */}
         <div className="bg-whiteHex w-full sm:w-[270px] h-[306px] text-center p-4">
-          <img
+          <Image
             src="/free-delivery 1.png"
             alt=""
+            width={100}
+            height={100}
             className="mx-auto mt-11"
           />
           <p className="mt-3 text-color font-bold">24/7 Support</p>
@@ -23,9 +26,11 @@ const Shops = () => {
         </div>
         {/* Card 2 */}
         <div className="bg-whiteHex w-full sm:w-[270px] h-[306px] text-center p-4">
-          <img
+          <Image
             src="/cashback 1.png"
             alt=""
+            width={100}
+            height={100}
             className="mx-auto mt-11"
           />
           <p className="mt-3 text-color font-bold">24/7 Support</p>
@@ -36,9 +41,11 @@ const Shops = () => {
         </div>
         {/* Card 3 */}
         <div className="bg-whiteHex w-full sm:w-[270px] h-[306px] text-center p-4">
-          <img
+          <Image
             src="/premium-quality 1.png"
             alt=""
+            width={100}
+            height={100}
             className="mx-auto mt-11"
           />
           <p className="mt-3 text-color font-bold">24/7 Support</p>
@@ -49,9 +56,11 @@ const Shops = () => {
         </div>
         {/* Card 4 */}
         <div className="bg-whiteHex w-full sm:w-[270px] h-[306px] text-center p-4">
-          <img
+          <Image
             src="/24-hours-support 1.png"
             alt=""
+            width={100}
+            height={100}
             className="mx-auto mt-11"
           />
           <p className="mt-3 text-color font-bold">24/7 Support</p>

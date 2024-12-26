@@ -1,14 +1,18 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
+import Image from 'next/image';
+
 export function Newsletter() {
   return (
     <section className="py-16">
       <div className="relative bg-pink-100 py-20 sm:py-28 md:py-52">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="/Rectangle 102.png" // Replace with your image path
             alt="Background"
-            className="w-full h-full object-cover"
+            layout="fill"
+            objectFit="cover"
+            className="w-full h-full"
           />
         </div>
         <div className="relative z-10 text-center">

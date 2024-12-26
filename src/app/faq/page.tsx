@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -47,7 +48,7 @@ const page = () => {
         </div>
         </div>
         <div className='flex justify-center mb-16 mt-20'>
-        <img src="/image 1174.png" alt="" />
+        <Image  src="/image 1174.png" alt=""width={1246} height={128} />
      </div>
       </div>
       

@@ -1,15 +1,17 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
+import Image from 'next/image'
 const page = () => {
   return (
     <div>
      <div className='bg-bag h-[286px] w-[1920px]'>
         <h1 className='text-[40px] text-blue-950 font-bold pt-[125px] ml-52'>Shop Grid Default</h1>
      </div>
-     <div><img src="/page sort by.png" alt="" className='ml-[310px] mt-[140px]' /></div>
+     <div><Image src="/page sort by.png" alt=""  width={389} 
+            height={22} className='ml-[310px] mt-[140px]' /></div>
      <div className='grid  grid-cols-4 ml-[230px] mt-32 '>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-            <img src="/image 9.png" alt=""  className='bg-bag'/>
+            <Image src="/image 9.png" alt="" width={169}  height={169} className='bg-bag'/>
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -21,7 +23,8 @@ const page = () => {
           
         </div >
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/image 1165.png" alt=""className='bg-bag' />
+        <Image src="/image 1165.png" alt=""  width={169} 
+            height={169}className='bg-bag' />
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -32,7 +35,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/image 1173.png" alt=""className='bg-bag' />
+        <Image src="/image 1173.png" alt=""  width={169} 
+            height={169} className='bg-bag' />
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -43,7 +47,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/10011 1.png" alt="" className='bg-bag'/>
+        <Image src="/10011 1.png" alt=""  width={169} 
+            height={169}className='bg-bag'/>
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -54,7 +59,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/unnamed 1.png" alt=""className='bg-bag' />
+        <Image src="/unnamed 1.png" alt=""  width={169} 
+            height={169}className='bg-bag' />
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -65,7 +71,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/1562173100-movado-connect-1562173094 2.png" alt="" className='bg-bag'/>
+        <Image src="/1562173100-movado-connect-1562173094 2.png" alt=""  width={169} 
+            height={169} className='bg-bag'/>
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -76,7 +83,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/purepng 1.png" alt=""className='bg-bag' />
+        <Image  width={169} 
+            height={169} src="/purepng 1.png" alt=""className='bg-bag' />
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -87,7 +95,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/image 1164.png" alt=""className='bg-bag' />
+        <Image src="/image 1164.png" alt=""  width={169} 
+            height={169}className='bg-bag' />
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -98,7 +107,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/res_7e24bf6d78bbb2518489d0af847413c9_450x450_fcp0 2.png" alt=""className='bg-bag' />
+        <Image src="/res_7e24bf6d78bbb2518489d0af847413c9_450x450_fcp0 2.png" alt=""  width={169} 
+            height={169}className='bg-bag' />
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -109,7 +119,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/cam 2.png" alt=""className='bg-bag' />
+        <Image src="/cam 2.png" alt=""  width={169} 
+            height={169}className='bg-bag' />
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -120,7 +131,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px] transform transition hover:scale-110 cursor-pointer'>
-        <img src="/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcGYtczczLXBhaS0xNTgta2FuYXRlLTAxLnBuZw 1.png" alt="" className='bg-bag'/>
+        <Image src="/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcGYtczczLXBhaS0xNTgta2FuYXRlLTAxLnBuZw 1.png" alt=""  width={169} 
+            height={169} className='bg-bag'/>
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -131,7 +143,8 @@ const page = () => {
            </p>
         </div>
         <div className='w-[270px] h-[363px]transform transition hover:scale-110 cursor-pointer '>
-        <img src="/10011 1.png" alt=""className='bg-bag' />
+        <Image src="/10011 1.png" alt=""  width={169} 
+            height={169}className='bg-bag' />
             <h2 className='text-[23px] font-bold text-blue-950'>Vel elit euismod</h2>
             <div className='flex gap-2  ml-14'>
                 <p className="w-3 h-3 bg-yellow-500 rounded-full "></p>
@@ -143,7 +156,8 @@ const page = () => {
         </div>
      </div>
      <div className='flex justify-center mb-16'>
-        <img src="/image 1174.png" alt="" />
+        <Image src="/image 1174.png" alt=""   width={904} 
+            height={93}/>
      </div>
     </div>
   )

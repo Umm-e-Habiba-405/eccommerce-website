@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -11,10 +12,10 @@ const page = () => {
       </div>
       <div className='flex gap-80 justify-center mt-28'>
         <div>
-            <img src="/Group (4).png" alt="" />
+            <Image src="/Group (4).png" alt=""  width={94} height={94} />
         </div>
         <div>
-            <img src="/Vector 15.png" alt="" className='border-2 rounded-full ml-44' />
+            <Image src="/Vector 15.png" alt=""   width={65} height={65}className='border-2 rounded-full ml-44' />
             <h1 className='text-blue-950 text-[32px] font-bold mt-5'>Your Ordered Is Completed</h1>
             <p className='text-para2 text-[17px] mt-5 '>
             Thank you for your order! Your order is being processed and will be completed within 3-6<br/>
@@ -23,7 +24,7 @@ hours. You will receive an email confirmation when your order is completed.</p>
         </div>
       </div>
       <div className='flex justify-center mb-16 '>
-        <img src="/image 1174.png" alt="" className="mt-24" />
+        <Image src="/image 1174.png" alt="" width={1176} height={121} className="mt-24" />
      </div>
     </div>
   )

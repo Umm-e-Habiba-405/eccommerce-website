@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -16,12 +17,12 @@ const page = () => {
         <div>
           <div className="flex gap-6 ">
             <div>
-              <img src="/Rectangle 134.png" alt=""  />
-              <img src="/Rectangle 136.png" alt="" className="mt-3" />
-              <img src="/Rectangle 137.png" alt="" className="mt-3" />
+              <Image src="/Rectangle 134.png" alt="" width={151} height={155}  />
+              <Image src="/Rectangle 136.png" alt="" width={151} height={155}className="mt-3" />
+              <Image src="/Rectangle 137.png" alt="" width={151} height={155}className="mt-3" />
             </div>
             <div>
-              <img src="/Rectangle 138.png" alt="" />
+              <Image src="/Rectangle 138.png" alt=""width={375} height={487} />
             </div>
           </div>
         </div>
@@ -54,7 +55,7 @@ const page = () => {
               </h1>
             </div>
             <div>
-              <img src="/Vector (2).png" alt="" className="mt-1 " />
+              <Image src="/Vector (2).png" alt="" width={18} height={18} className="mt-1 " />
             </div>
           </div>
           <p className="text-[20px] text-blue-950  font-semibold mt-3">
@@ -66,9 +67,9 @@ const page = () => {
               Share
             </div>
             <div className="flex gap-3">
-              <img src="/Group 202.png" alt="" />
-              <img src="/Group 203.png" alt="" />
-              <img src="/Group 204.png" alt="" />
+              <Image src="/Group 202.png" alt="" width={14} height={8} />
+              <Image src="/Group 203.png" alt="" width={14} height={8}/>
+              <Image src="/Group 204.png" alt="" width={14} height={8}/>
             </div>
           </div>
         </div>
@@ -107,7 +108,7 @@ const page = () => {
         <h1 className="text-[40px] text-blue-950 ml-72 font-bold mt-14  ">Related Products</h1>
         <div className="flex gap-10 justify-center mt-20">
             <div>
-                <img src="/Rectangle 128.png" alt="" />
+                <Image src="/Rectangle 128.png" alt="" width={270} height={340} />
                 <div className="flex justify-between m-2 ">
                 <p className="text-blue-950 text-[19px] font-semibold">Mens Fashion Wear</p>
                 <p className="text-yellow-500">
@@ -116,7 +117,7 @@ const page = () => {
                 <p className="text-[18px] text-blue-950 ml-2">$43.00</p>
             </div>
             <div>
-                <img src="/Rectangle 130.png" alt="" />
+                <Image src="/Rectangle 130.png" alt="" width={270} height={340} />
                 <div className="flex justify-between m-2 ">
                 <p className="text-blue-950 text-[19px] font-semibold">Mens Fashion Wear</p>
                 <p className="text-yellow-500">
@@ -126,7 +127,7 @@ const page = () => {
                 
             </div>
             <div>
-                <img src="/Rectangle 131.png" alt="" />
+                <Image src="/Rectangle 131.png" alt="" width={270} height={340}/>
                 <div className="flex justify-between m-2 ">
                 <p className="text-blue-950 text-[19px] font-semibold">Mens Fashion Wear</p>
                 <p className="text-yellow-500">
@@ -135,7 +136,7 @@ const page = () => {
                 <p className="text-[18px] text-blue-950 ml-2">$43.00</p>
             </div>
             <div>
-                <img src="/Rectangle 133.png" alt="" />
+                <Image  src="/Rectangle 133.png" alt=""width={270} height={340} />
                 <div className="flex justify-between mt-7 ">
                 <p className="text-blue-950 text-[19px] font-semibold">Mens Fashion Wear</p>
                 <p className="text-yellow-500">
